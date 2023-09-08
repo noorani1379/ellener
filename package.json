@@ -1,0 +1,15 @@
+{
+  "name": "ellener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "watch": "node-sass sass/main.scss style.css --watch",
+    "compile": "node-sass sass/main.scss style.css "
+  },
+  "author": "ellener",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

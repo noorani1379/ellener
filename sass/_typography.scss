@@ -1,0 +1,30 @@
+.title {
+  font-family: inherit;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11rem;
+  animation: htitle 2s ease-in-out;
+  position: absolute;
+  top: -9.7rem;
+  left: 1rem;
+}
+
+.desc {
+  font-family: inherit;
+  display: block;
+  letter-spacing: 1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  word-spacing: 2rem;
+  text-transform: uppercase;
+  animation: hdesc 2s ease-in-out;
+  position: absolute;
+  top: 4rem;
+  left: 7rem;
+  width: 50%;
+  text-align: end;
+}
+
+
+

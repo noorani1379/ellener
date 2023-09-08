@@ -1,0 +1,44 @@
+.feature{
+	display: grid;
+	grid-template-columns: min-content 1fr;
+	grid-row-gap: 1.5rem;
+	grid-column-gap: 2.5rem;
+	
+
+	&__container{
+		grid-column: full-start / center-end;
+		margin: 10rem;
+		display: grid;
+		grid-template-columns: repeat(auto-fit , minmax(25rem , 1fr));
+		grid-template-rows:  repeat(2 , 1fr);
+		grid-gap: 6rem;
+		align-items: start;	
+	}
+
+	&__icon{
+		fill:  rgb(28, 6, 63);
+		width: 4.5rem;
+		height: 4.5rem;
+		grid-row: 1 / span 2 ;
+		transform: translateY(-1rem);
+	}
+
+	&__title{
+		font-size: 2rem;
+	}
+	&__text{
+		font-size: 1.7rem;
+	}
+} 
+
+
+
+.container{
+	direction: ltr;
+	display: grid;
+	grid-template-columns:
+			[sidebar-start] 8rem [sidebar-end full-start] minmax(6rem , 1fr) 
+			[center-start] repeat(8 , [col-start] minmax(min-content , 14rem)
+			[col-end]) [center-end] minmax(6rem , 1fr) [full-end];
+
+}
